@@ -1,7 +1,7 @@
-# terminal_and_editor_setup
+# Terminal and editor setup
 Instructions for how to setup and configure iTerm2 and Vim on Mac
 
-Resources:
+## Resources:
 https://robots.thoughtbot.com/seamlessly-navigate-vim-and-tmux-splits
 
 https://github.com/christoomey/vim-tmux-navigator
@@ -13,7 +13,7 @@ https://gist.github.com/andyfowler/1195581
 
 iTerm2 color scheme: http://ethanschoonover.com/solarized
 
-Steps:
+## Steps:
 
 1. Make sure tmux and vim are installed
 2. Install Vundle
@@ -29,7 +29,7 @@ such as `- tmux resize-pane -t 0 -x 200`
 
 
 
-Teamocil template:
+### Teamocil template:
 ```
  windows:
    - name: sample_rails_app
