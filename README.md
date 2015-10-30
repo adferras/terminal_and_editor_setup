@@ -46,3 +46,6 @@ such as `- tmux resize-pane -t 0 -x 200`
        - commands:
          - bundle exec guard
 ```
+
+## If you've done it all correctly
+![Example](/images/tmux\ with\ editor.png)
