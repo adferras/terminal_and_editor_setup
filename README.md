@@ -14,19 +14,21 @@ http://ethanschoonover.com/solarized
 ## Steps:
 
 1. Make sure tmux and vim are installed
-2. Install Vundle: https://github.com/VundleVim/Vundle.vim
-3. Create a tmux configuration file at `~/.tmux.conf`
-4. Follow the installation instructions in https://robots.thoughtbot.com/seamlessly-navigate-vim-and-tmux-splits
-5. Install Teamocil: https://github.com/remiprev/teamocil
-6. Create a teamocil template, see below for example
-7. If you need to resize any of your tmux panes, you can do so in the
+2. Modify your `~/.vimrc` file per the following instructions for tmux:
+   https://coderwall.com/p/if9mda/automatically-set-paste-mode-in-vim-when-pasting-in-insert-mode
+3. Install Vundle: https://github.com/VundleVim/Vundle.vim
+4. Create a tmux configuration file at `~/.tmux.conf`
+5. Follow the installation instructions in https://robots.thoughtbot.com/seamlessly-navigate-vim-and-tmux-splits
+6. Install Teamocil: https://github.com/remiprev/teamocil
+7. Create a teamocil template, see below for example
+8. If you need to resize any of your tmux panes, you can do so in the
    teamocil template, by running an additional tmux command after init,
 such as `- tmux resize-pane -t 0 -x 200`
-8. Load your color scheme into iTerm by navigating to
+9. Load your color scheme into iTerm by navigating to
    Preferences>Profiles>[your profile]>colors>load presets>import
-9. Set your color scheme by selecting it in the dropdown
-10. Within iTerm, run `tmux`
-11. Within tmux, run `teamocil <your template>`
+10. Set your color scheme by selecting it in the dropdown
+11. Within iTerm, run `tmux`
+12. Within tmux, run `teamocil <your template>`
 
 ### Teamocil template:
 ```
