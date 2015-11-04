@@ -27,8 +27,10 @@ such as `- tmux resize-pane -t 0 -x 200`
 9. Load your color scheme into iTerm by navigating to
    Preferences>Profiles>[your profile]>colors>load presets>import
 10. Set your color scheme by selecting it in the dropdown
-11. Within iTerm, run `tmux`
-12. Within tmux, run `teamocil <your template>`
+11. Setup the ability to copy/paste from tmux/vim using:
+    http://evertpot.com/osx-tmux-vim-copy-paste-clipboard/
+12. Within iTerm, run `tmux`
+13. Within tmux, run `teamocil <your template>`
 
 ### Teamocil template:
 ```
